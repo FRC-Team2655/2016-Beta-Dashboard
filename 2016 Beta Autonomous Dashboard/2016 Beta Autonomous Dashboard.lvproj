@@ -26,6 +26,7 @@
 			<Item Name="Array To Autonomous Commands.vi" Type="VI" URL="../Autonomous VIs/Array To Autonomous Commands.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../IMUtoNormalGyro.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
