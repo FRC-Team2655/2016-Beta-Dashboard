@@ -1,0 +1,341 @@
+#VRML V2.0 utf8
+
+PROTO Header_Info [
+field SFString vendor "Parametric Technology Corporation"
+field SFString product "Pro/ENGINEER"
+field SFString version ""
+field SFString sceneFile ""]
+{WorldInfo {}}
+
+PROTO Node_Info [
+field SFString node_type ""
+field SFString node_name ""]
+{WorldInfo {}}
+
+PROTO Geom_Type [
+field SFString geom_type_s "T_Empty"
+field SFInt32 trg_qual 1]
+{WorldInfo {}}
+
+PROTO Member_Info [
+field SFString member_name ""
+field SFInt32 member_id 0
+field SFString proe_name ""
+field SFString proe_type_s  ""
+field SFString expl_status_s "Vrml_Exp_Unknown"
+field MFFloat drag_trf [] ]
+{WorldInfo {}}
+
+PROTO Model_Info [
+field SFInt32 proe_id 7
+field SFString proe_type_s "Proe_Assembly"
+field SFString proe_name "PNEUMATIC_HUB"
+field SFInt32 maj_rev -5
+field SFInt32 min_rev  -5
+field SFInt32 rev_num 91
+field SFInt32 rev_num_cosm 82
+field SFString inst_type_s "Inst_Type_Main"
+field SFString generic_name "generic_name"
+field SFFloat s_factor 39.3701
+field MFString parameter_names []
+field MFString parameter_types []
+field MFString parameter_values []
+]
+{WorldInfo {}}
+
+Header_Info{
+vendor "Parametric Technology Corporation"
+product "Creo Parametric"
+version "2"
+}
+
+DEF V_Model Anchor {
+  url ""
+  description "pneumatic_hub.asm"
+children [
+Node_Info {
+node_type "V_Model"
+node_name "pneumatic_hub.asm"
+}
+DEF Default Viewpoint {
+description "Default"
+position 0.0892878 0.165427 0.182075
+orientation -0.906402 0.380364 -0.183737 0.979298
+fieldOfView 1.53627
+}
+
+DEF FRONT Viewpoint {
+description "FRONT"
+position -0.00588109 -0.00113512 0.238364
+orientation 0 0 1 0
+fieldOfView 1.54015
+}
+
+DEF TOP Viewpoint {
+description "TOP"
+position -0.00588109 0.22815 0.00907908
+orientation -1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF RIGHT Viewpoint {
+description "RIGHT"
+position 0.223404 -0.00113512 0.00907908
+orientation 0 1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF LEFT Viewpoint {
+description "LEFT"
+position -0.235166 -0.00113512 0.00907908
+orientation 0 -1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF BACK Viewpoint {
+description "BACK"
+position -0.00588109 -0.00113512 -0.220206
+orientation 0 1 0 3.14159
+fieldOfView 1.54015
+}
+
+DEF BOTTOM Viewpoint {
+description "BOTTOM"
+position -0.00588109 -0.23042 0.00907908
+orientation 1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF ISOMETRIC Viewpoint {
+description "ISOMETRIC"
+position 0.126497 0.131241 0.141457
+orientation -0.59028 0.769277 0.244502 0.987857
+fieldOfView 1.54015
+}
+
+DEF TRIMETRIC Viewpoint {
+description "TRIMETRIC"
+position 0.121755 0.113507 0.16119
+orientation -0.579517 0.787191 0.210927 0.86618
+fieldOfView 1.54015
+}
+
+Model_Info {
+proe_id 7
+proe_type_s "Proe_Assembly"
+proe_name "PNEUMATIC_HUB"
+maj_rev -5
+min_rev  -5
+rev_num 91
+rev_num_cosm 82
+inst_type_s "Inst_Type_Main"
+generic_name ""
+s_factor 39.3701
+parameter_names ["PROJECT","MODELED_BY","DESCRIPTION"]
+parameter_types ["STRING","STRING","STRING"]
+parameter_values ["","",""]
+}
+
+DEF Rep_0 Group {
+ children [
+Node_Info {
+node_type "Rep"
+node_name "Rep_0"
+}
+DEF Member_0_47 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_47"
+}
+Member_Info {
+member_name "Member_0_47"
+member_id 47
+}
+
+Transform {
+rotation 1.02228e-16 0.831219 -0.555945 3.14159
+translation 0.00732691 0.0340601 0.0293991
+children [
+Inline {
+url "_4x1_00__plastic_thread_rolling_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_49 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_49"
+}
+Member_Info {
+member_name "Member_0_49"
+member_id 49
+}
+
+Transform {
+translation -0.0286141 -0.00113512 0.00907908
+children [
+Inline {
+url "hub_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_51 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_51"
+}
+Member_Info {
+member_name "Member_0_51"
+member_id 51
+}
+
+Transform {
+rotation -5.11138e-17 0.0658535 0.997829 3.14159
+translation 0.00732691 -0.00113512 -0.0315609
+children [
+Inline {
+url "_4x1_00__plastic_thread_rolling_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_52 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_52"
+}
+Member_Info {
+member_name "Member_0_52"
+member_id 52
+}
+
+Transform {
+rotation -1 -2.25818e-16 1.30376e-16 -0.848224
+translation -0.0190891 -0.00113512 0.0497191
+children [
+Inline {
+url "_4x1_00__plastic_thread_rolling_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_53 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_53"
+}
+Member_Info {
+member_name "Member_0_53"
+member_id 53
+}
+
+Transform {
+rotation 5.11138e-17 0.897072 0.441884 3.14159
+translation 0.00732691 -0.0363304 0.0293991
+children [
+Inline {
+url "_4x1_00__plastic_thread_rolling_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_54 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_54"
+}
+Member_Info {
+member_name "Member_0_54"
+member_id 54
+}
+
+Transform {
+rotation 1 0 1.83881e-16 -1.24617
+translation -0.0190891 0.0340601 -0.0112409
+children [
+Inline {
+url "_4x1_00__plastic_thread_rolling_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_55 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_55"
+}
+Member_Info {
+member_name "Member_0_55"
+member_id 55
+}
+
+Transform {
+rotation -1 -9.33884e-17 -5.39178e-17 -2.94262
+translation -0.0190891 -0.0363304 -0.0112409
+children [
+Inline {
+url "_4x1_00__plastic_thread_rolling_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_56 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_56"
+}
+Member_Info {
+member_name "Member_0_56"
+member_id 56
+}
+
+Transform {
+rotation 0 1 -6.91114e-15 3.14159
+translation 0.0168519 -0.00113512 0.00907908
+children [
+Inline {
+url "hub_prt.wrl"}
+
+]
+}
+
+]
+}
+
+]
+}
+
+]
+}
+

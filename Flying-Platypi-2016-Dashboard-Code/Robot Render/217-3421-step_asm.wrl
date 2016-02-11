@@ -1,0 +1,1123 @@
+#VRML V2.0 utf8
+
+PROTO Header_Info [
+field SFString vendor "Parametric Technology Corporation"
+field SFString product "Pro/ENGINEER"
+field SFString version ""
+field SFString sceneFile ""]
+{WorldInfo {}}
+
+PROTO Node_Info [
+field SFString node_type ""
+field SFString node_name ""]
+{WorldInfo {}}
+
+PROTO Geom_Type [
+field SFString geom_type_s "T_Empty"
+field SFInt32 trg_qual 1]
+{WorldInfo {}}
+
+PROTO Member_Info [
+field SFString member_name ""
+field SFInt32 member_id 0
+field SFString proe_name ""
+field SFString proe_type_s  ""
+field SFString expl_status_s "Vrml_Exp_Unknown"
+field MFFloat drag_trf [] ]
+{WorldInfo {}}
+
+PROTO Model_Info [
+field SFInt32 proe_id 3
+field SFString proe_type_s "Proe_Assembly"
+field SFString proe_name "217-3421-STEP"
+field SFInt32 maj_rev -5
+field SFInt32 min_rev  -5
+field SFInt32 rev_num 129
+field SFInt32 rev_num_cosm 100
+field SFString inst_type_s "Inst_Type_Main"
+field SFString generic_name "generic_name"
+field SFFloat s_factor 39.3701
+field MFString parameter_names []
+field MFString parameter_types []
+field MFString parameter_values []
+]
+{WorldInfo {}}
+
+Header_Info{
+vendor "Parametric Technology Corporation"
+product "Creo Parametric"
+version "2"
+}
+
+DEF V_Model Anchor {
+  url ""
+  description "217-3421-step.asm"
+children [
+Node_Info {
+node_type "V_Model"
+node_name "217-3421-step.asm"
+}
+DEF Default Viewpoint {
+description "Default"
+position 0.19931 0.369271 0.343835
+orientation -0.906402 0.380364 -0.183737 0.979298
+fieldOfView 1.5388
+}
+
+DEF FRONT Viewpoint {
+description "FRONT"
+position 0 -0.013768 0.541034
+orientation 0 0 1 0
+fieldOfView 1.54015
+}
+
+DEF TOP Viewpoint {
+description "TOP"
+position 0 0.498048 0.0292187
+orientation -1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF RIGHT Viewpoint {
+description "RIGHT"
+position 0.511815 -0.013768 0.0292187
+orientation 0 1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF LEFT Viewpoint {
+description "LEFT"
+position -0.511815 -0.013768 0.0292187
+orientation 0 -1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF BACK Viewpoint {
+description "BACK"
+position -1.15631e-16 -0.013768 -0.482597
+orientation 0 1 0 3.14159
+fieldOfView 1.54015
+}
+
+DEF BOTTOM Viewpoint {
+description "BOTTOM"
+position 0 -0.525583 0.0292187
+orientation 1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF ISOMETRIC Viewpoint {
+description "ISOMETRIC"
+position 0.295498 0.281726 0.324717
+orientation -0.59028 0.769277 0.244502 0.987857
+fieldOfView 1.54015
+}
+
+DEF TRIMETRIC Viewpoint {
+description "TRIMETRIC"
+position 0.284913 0.24214 0.368764
+orientation -0.579517 0.787191 0.210927 0.86618
+fieldOfView 1.54015
+}
+
+Model_Info {
+proe_id 3
+proe_type_s "Proe_Assembly"
+proe_name "217-3421-STEP"
+maj_rev -5
+min_rev  -5
+rev_num 129
+rev_num_cosm 100
+inst_type_s "Inst_Type_Main"
+generic_name ""
+s_factor 39.3701
+parameter_names ["PROJECT","MODELED_BY","DESCRIPTION"]
+parameter_types ["STRING","STRING","STRING"]
+parameter_values ["","",""]
+}
+
+DEF Rep_0 Group {
+ children [
+Node_Info {
+node_type "Rep"
+node_name "Rep_0"
+}
+DEF Member_0_49 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_49"
+}
+Member_Info {
+member_name "Member_0_49"
+member_id 49
+}
+
+Transform {
+rotation -0.882447 0.332632 0.332632 -1.69553
+translation 0 -0.0470408 0
+children [
+Inline {
+url "217-2731_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_51 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_51"
+}
+Member_Info {
+member_name "Member_0_51"
+member_id 51
+}
+
+Transform {
+rotation -3.12451e-15 -8.30513e-17 -1 -0.0531486
+translation -0.0368407 -0.0107518 0.0161
+children [
+Inline {
+url "217-2761-001_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_52 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_52"
+}
+Member_Info {
+member_name "Member_0_52"
+member_id 52
+}
+
+Transform {
+translation -0.0379881 0.0108177 0.0206375
+children [
+Inline {
+url "217-3421-005_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_54 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_54"
+}
+Member_Info {
+member_name "Member_0_54"
+member_id 54
+}
+
+Transform {
+rotation -1.5199e-16 -1.59352e-16 1 -1.62082
+translation -3.17705e-05 0.0394208 0.0157856
+children [
+Inline {
+url "217-2614-001_12t_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_56 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_56"
+}
+Member_Info {
+member_name "Member_0_56"
+member_id 56
+}
+
+Transform {
+rotation 0.148587 -0.977673 -0.148587 -1.59337
+translation -0.05715 -0.0470408 0.04445
+children [
+Inline {
+url "217-3421-007_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_58 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_58"
+}
+Member_Info {
+member_name "Member_0_58"
+member_id 58
+}
+
+Transform {
+rotation -0.363052 -0.85813 0.363052 -1.7232
+translation 0 -0.0470408 -0.0004445
+children [
+Inline {
+url "217-3421-011_rev2_97633a200_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_60 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_60"
+}
+Member_Info {
+member_name "Member_0_60"
+member_id 60
+}
+
+Transform {
+rotation -0.0265618 -0.999294 0.0265618 -1.5715
+translation 0.0366388 -0.0145464 0
+children [
+Inline {
+url "217-2000_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_61 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_61"
+}
+Member_Info {
+member_name "Member_0_61"
+member_id 61
+}
+
+Transform {
+rotation -0.101814 -0.98958 0.101814 -1.58127
+translation 0 0 0.0079375
+children [
+Inline {
+url "217-2733_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_63 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_63"
+}
+Member_Info {
+member_name "Member_0_63"
+member_id 63
+}
+
+Transform {
+rotation 1.05355e-17 -2.70151e-19 -1 -1.52077
+translation 0.00376348 0.0392308 0.0161
+children [
+Inline {
+url "217-2761-001_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_64 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_64"
+}
+Member_Info {
+member_name "Member_0_64"
+member_id 64
+}
+
+Transform {
+translation 0.0379881 0.0108177 0.0206375
+children [
+Inline {
+url "217-3421-005_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_65 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_65"
+}
+Member_Info {
+member_name "Member_0_65"
+member_id 65
+}
+
+Transform {
+rotation 0.0138725 -0.999808 -0.0138725 -1.57099
+translation -0.0254 0.0406908 0.00635
+children [
+Inline {
+url "217-3421-009_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_67 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_67"
+}
+Member_Info {
+member_name "Member_0_67"
+member_id 67
+}
+
+Transform {
+translation 0 0 0.0269367
+children [
+Inline {
+url "217-3100-001_14t_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_69 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_69"
+}
+Member_Info {
+member_name "Member_0_69"
+member_id 69
+}
+
+Transform {
+rotation -0.204025 -0.95747 0.204025 -1.61424
+translation 0.0380118 0.0108086 0.041275
+children [
+Inline {
+url "217-3421-008_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_71 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_71"
+}
+Member_Info {
+member_name "Member_0_71"
+member_id 71
+}
+
+Transform {
+rotation -0.401272 -0.823384 0.401272 -1.76392
+translation -3.17705e-05 0.0394208 0.026352
+children [
+Inline {
+url "217-2614-002_98430a132_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_73 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_73"
+}
+Member_Info {
+member_name "Member_0_73"
+member_id 73
+}
+
+Inline {
+url "217-3421-001_rev1_prt.wrl"}
+
+]
+}
+
+DEF Member_0_75 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_75"
+}
+Member_Info {
+member_name "Member_0_75"
+member_id 75
+}
+
+Transform {
+rotation -0.319256 0.892273 -0.319256 -1.68453
+translation 0 0 0.0333375
+children [
+Inline {
+url "217-2733_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_76 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_76"
+}
+Member_Info {
+member_name "Member_0_76"
+member_id 76
+}
+
+Transform {
+rotation -0.401272 -0.823384 0.401272 -1.76392
+translation 0.0366388 -0.0145464 0.006286
+children [
+Inline {
+url "217-2614-002_98430a132_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_77 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_77"
+}
+Member_Info {
+member_name "Member_0_77"
+member_id 77
+}
+
+Transform {
+translation -0.05715 -0.0470408 0.0206375
+children [
+Inline {
+url "217-3421-006_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_79 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_79"
+}
+Member_Info {
+member_name "Member_0_79"
+member_id 79
+}
+
+Transform {
+rotation 0.0138725 -0.999808 -0.0138725 -1.57099
+translation 0.0253365 0.0381508 0.00635
+children [
+Inline {
+url "217-3421-009_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_80 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_80"
+}
+Member_Info {
+member_name "Member_0_80"
+member_id 80
+}
+
+Transform {
+rotation 0 0 1 -0.165121
+translation 0 0 0.0142621
+children [
+Inline {
+url "217-2711-002_rev1_50t_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_82 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_82"
+}
+Member_Info {
+member_name "Member_0_82"
+member_id 82
+}
+
+Transform {
+rotation -0.056492 -0.996804 0.056492 -1.574
+translation -0.0380118 0.0108086 0.041275
+children [
+Inline {
+url "217-3421-008_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_83 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_83"
+}
+Member_Info {
+member_name "Member_0_83"
+member_id 83
+}
+
+Transform {
+rotation -0.209775 -0.954981 0.209775 -1.61684
+translation 0.0366388 -0.0145464 0.026352
+children [
+Inline {
+url "217-2614-002_98430a132_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_84 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_84"
+}
+Member_Info {
+member_name "Member_0_84"
+member_id 84
+}
+
+Transform {
+rotation 5.55112e-17 1 0 3.14159
+translation 0 0 0.041275
+children [
+Inline {
+url "217-3421-002_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_86 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_86"
+}
+Member_Info {
+member_name "Member_0_86"
+member_id 86
+}
+
+Transform {
+rotation 0.751504 -0.466498 0.466498 -1.85267
+translation 0 -0.0470408 0.041275
+children [
+Inline {
+url "217-2734_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_88 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_88"
+}
+Member_Info {
+member_name "Member_0_88"
+member_id 88
+}
+
+Transform {
+rotation -0.478486 -0.736277 0.478486 -1.87227
+translation -3.17705e-05 0.0394208 0.006286
+children [
+Inline {
+url "217-2614-002_98430a132_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_89 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_89"
+}
+Member_Info {
+member_name "Member_0_89"
+member_id 89
+}
+
+Transform {
+rotation 0 0 1 -2.34519
+translation 0.05715 -0.0470408 0.0206375
+children [
+Inline {
+url "217-3421-006_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_90 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_90"
+}
+Member_Info {
+member_name "Member_0_90"
+member_id 90
+}
+
+Transform {
+rotation 0.0138725 -0.999808 -0.0138725 -1.57099
+translation -0.0352895 -0.0399105 0.00635
+children [
+Inline {
+url "217-3421-009_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_91 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_91"
+}
+Member_Info {
+member_name "Member_0_91"
+member_id 91
+}
+
+Transform {
+rotation 0 0 1 -2.1288
+translation 0 -0.0470408 0.0270129
+children [
+Inline {
+url "217-2714-002_rev1_60t_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_93 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_93"
+}
+Member_Info {
+member_name "Member_0_93"
+member_id 93
+}
+
+Transform {
+rotation -0.171798 -0.970037 0.171798 -1.60121
+translation -0.0366388 -0.0145464 0.026352
+children [
+Inline {
+url "217-2614-002_98430a132_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_94 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_94"
+}
+Member_Info {
+member_name "Member_0_94"
+member_id 94
+}
+
+Transform {
+rotation -2.82267e-16 7.24093e-16 1 -0.764268
+translation 0 0 0.0206375
+children [
+Inline {
+url "217-3421-003_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_96 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_96"
+}
+Member_Info {
+member_name "Member_0_96"
+member_id 96
+}
+
+Transform {
+rotation 0 0 -1 -0.0531486
+translation -0.0366388 -0.0145464 0.0157856
+children [
+Inline {
+url "217-2614-001_12t_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_97 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_97"
+}
+Member_Info {
+member_name "Member_0_97"
+member_id 97
+}
+
+Transform {
+rotation -0.403966 -0.820746 0.403966 -1.76707
+translation -0.0366388 -0.0145464 0.006286
+children [
+Inline {
+url "217-2614-002_98430a132_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_98 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_98"
+}
+Member_Info {
+member_name "Member_0_98"
+member_id 98
+}
+
+Transform {
+rotation 0 0 -1 -0.0851596
+translation 0 -0.0470408 0.0142875
+children [
+Inline {
+url "217-3261-001_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_100 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_100"
+}
+Member_Info {
+member_name "Member_0_100"
+member_id 100
+}
+
+Transform {
+rotation 0.546099 0.592358 -0.592358 -2.14191
+translation 0.05715 -0.0470408 0
+children [
+Inline {
+url "217-3421-010_rev1_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_101 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_101"
+}
+Member_Info {
+member_name "Member_0_101"
+member_id 101
+}
+
+Transform {
+rotation 0.0265618 -0.999294 -0.0265618 -1.5715
+translation -0.0366388 -0.0145464 0
+children [
+Inline {
+url "217-2000_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_102 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_102"
+}
+Member_Info {
+member_name "Member_0_102"
+member_id 102
+}
+
+Transform {
+rotation -2.08752e-15 5.54875e-17 1 -0.0531486
+translation 0.0368407 -0.0107518 0.0161
+children [
+Inline {
+url "217-2761-001_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_103 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_103"
+}
+Member_Info {
+member_name "Member_0_103"
+member_id 103
+}
+
+Transform {
+rotation 0 0 1 -1.48475
+translation 0 -0.0470408 0.0904875
+children [
+Inline {
+url "217-3421-004_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_105 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_105"
+}
+Member_Info {
+member_name "Member_0_105"
+member_id 105
+}
+
+Transform {
+rotation 0 0 1 -0.0531486
+translation 0.0366388 -0.0145464 0.0157856
+children [
+Inline {
+url "217-2614-001_12t_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_106 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_106"
+}
+Member_Info {
+member_name "Member_0_106"
+member_id 106
+}
+
+Transform {
+rotation 0.0138725 -0.999808 -0.0138725 -1.57099
+translation 0.0352895 -0.0399105 0.00635
+children [
+Inline {
+url "217-3421-009_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_107 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_107"
+}
+Member_Info {
+member_name "Member_0_107"
+member_id 107
+}
+
+Transform {
+rotation 0.148587 -0.977673 -0.148587 -1.59337
+translation 0.05715 -0.0470408 0.04445
+children [
+Inline {
+url "217-3421-007_rev1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_108 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_108"
+}
+Member_Info {
+member_name "Member_0_108"
+member_id 108
+}
+
+Transform {
+rotation 0.580324 -0.575858 0.575858 -2.08994
+translation -0.05715 -0.0470408 0
+children [
+Inline {
+url "217-3421-010_rev1_asm.wrl"}
+
+]
+}
+
+]
+}
+
+]
+}
+
+]
+}
+

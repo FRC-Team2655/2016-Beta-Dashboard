@@ -1,0 +1,221 @@
+#VRML V2.0 utf8
+
+PROTO Header_Info [
+field SFString vendor "Parametric Technology Corporation"
+field SFString product "Pro/ENGINEER"
+field SFString version ""
+field SFString sceneFile ""]
+{WorldInfo {}}
+
+PROTO Node_Info [
+field SFString node_type ""
+field SFString node_name ""]
+{WorldInfo {}}
+
+PROTO Geom_Type [
+field SFString geom_type_s "T_Empty"
+field SFInt32 trg_qual 1]
+{WorldInfo {}}
+
+PROTO Member_Info [
+field SFString member_name ""
+field SFInt32 member_id 0
+field SFString proe_name ""
+field SFString proe_type_s  ""
+field SFString expl_status_s "Vrml_Exp_Unknown"
+field MFFloat drag_trf [] ]
+{WorldInfo {}}
+
+PROTO Model_Info [
+field SFInt32 proe_id 524307
+field SFString proe_type_s "Proe_Assembly"
+field SFString proe_name "PNEUMATIC_WHEEL#AF4"
+field SFInt32 maj_rev -5
+field SFInt32 min_rev  -5
+field SFInt32 rev_num 111
+field SFInt32 rev_num_cosm 82
+field SFString inst_type_s "Inst_Type_No_Visible"
+field SFString generic_name "PNEUMATIC_WHEEL"
+field SFFloat s_factor 39.3701
+field MFString parameter_names []
+field MFString parameter_types []
+field MFString parameter_values []
+]
+{WorldInfo {}}
+
+Header_Info{
+vendor "Parametric Technology Corporation"
+product "Creo Parametric"
+version "2"
+}
+
+DEF V_Model Anchor {
+  url ""
+  description "pneumatic_wheel#af4.asm"
+children [
+Node_Info {
+node_type "V_Model"
+node_name "pneumatic_wheel#af4.asm"
+}
+DEF Default Viewpoint {
+description "Default"
+position 0.176159 0.326377 0.309796
+orientation -0.906402 0.380364 -0.183737 0.979298
+fieldOfView 1.53801
+}
+
+DEF FRONT Viewpoint {
+description "FRONT"
+position -0.00160161 8.69006e-10 0.452363
+orientation 0 0 1 0
+fieldOfView 1.54015
+}
+
+DEF TOP Viewpoint {
+description "TOP"
+position -0.00160161 0.452363 5.04941e-17
+orientation -1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF RIGHT Viewpoint {
+description "RIGHT"
+position 0.450762 8.69006e-10 5.04941e-17
+orientation 0 1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF LEFT Viewpoint {
+description "LEFT"
+position -0.453965 8.69006e-10 -1.88062e-17
+orientation 0 -1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF BACK Viewpoint {
+description "BACK"
+position -0.00160161 8.69006e-10 -0.452363
+orientation 0 1 0 3.14159
+fieldOfView 1.54015
+}
+
+DEF BOTTOM Viewpoint {
+description "BOTTOM"
+position -0.00160161 -0.452363 -5.62286e-17
+orientation 1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF ISOMETRIC Viewpoint {
+description "ISOMETRIC"
+position 0.259572 0.26117 0.261173
+orientation -0.59028 0.769277 0.244502 0.987857
+fieldOfView 1.54015
+}
+
+DEF TRIMETRIC Viewpoint {
+description "TRIMETRIC"
+position 0.250216 0.226182 0.300104
+orientation -0.579517 0.787191 0.210927 0.86618
+fieldOfView 1.54015
+}
+
+Model_Info {
+proe_id 524307
+proe_type_s "Proe_Assembly"
+proe_name "PNEUMATIC_WHEEL#AF4"
+maj_rev -5
+min_rev  -5
+rev_num 111
+rev_num_cosm 82
+inst_type_s "Inst_Type_No_Visible"
+generic_name "PNEUMATIC_WHEEL"
+s_factor 39.3701
+parameter_names ["PROJECT","MODELED_BY","DESCRIPTION"]
+parameter_types ["STRING","STRING","STRING"]
+parameter_values ["","",""]
+}
+
+DEF Rep_0 Group {
+ children [
+Node_Info {
+node_type "Rep"
+node_name "Rep_0"
+}
+DEF Member_0_47 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_47"
+}
+Member_Info {
+member_name "Member_0_47"
+member_id 47
+}
+
+Transform {
+rotation 0 1 0 -1.5708
+translation 0 0 0
+children [
+Inline {
+url "tire_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_51 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_51"
+}
+Member_Info {
+member_name "Member_0_51"
+member_id 51
+}
+
+Transform {
+translation 0.00575409 0.00113512 -0.00907908
+children [
+Inline {
+url "pneumatic_hub_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_49 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_49"
+}
+Member_Info {
+member_name "Member_0_49"
+member_id 49
+}
+
+Transform {
+rotation 6.91784e-15 -6.90443e-15 -1 -1.5708
+translation -0.000127 0.045014 0
+children [
+Inline {
+url "valve_prt.wrl"}
+
+]
+}
+
+]
+}
+
+]
+}
+
+]
+}
+

@@ -1,0 +1,907 @@
+#VRML V2.0 utf8
+
+PROTO Header_Info [
+field SFString vendor "Parametric Technology Corporation"
+field SFString product "Pro/ENGINEER"
+field SFString version ""
+field SFString sceneFile ""]
+{WorldInfo {}}
+
+PROTO Node_Info [
+field SFString node_type ""
+field SFString node_name ""]
+{WorldInfo {}}
+
+PROTO Geom_Type [
+field SFString geom_type_s "T_Empty"
+field SFInt32 trg_qual 1]
+{WorldInfo {}}
+
+PROTO Member_Info [
+field SFString member_name ""
+field SFInt32 member_id 0
+field SFString proe_name ""
+field SFString proe_type_s  ""
+field SFString expl_status_s "Vrml_Exp_Unknown"
+field MFFloat drag_trf [] ]
+{WorldInfo {}}
+
+PROTO Model_Info [
+field SFInt32 proe_id 0
+field SFString proe_type_s "Proe_Assembly"
+field SFString proe_name "2016ROBOT2"
+field SFInt32 maj_rev -5
+field SFInt32 min_rev  -5
+field SFInt32 rev_num 4822
+field SFInt32 rev_num_cosm 92
+field SFString inst_type_s "Inst_Type_Main"
+field SFString generic_name "generic_name"
+field SFFloat s_factor 39.3701
+field MFString parameter_names []
+field MFString parameter_types []
+field MFString parameter_values []
+]
+{WorldInfo {}}
+
+Header_Info{
+vendor "Parametric Technology Corporation"
+product "Creo Parametric"
+version "2"
+}
+
+DEF V_Model Anchor {
+  url ""
+  description "2016robot2.asm"
+children [
+Node_Info {
+node_type "V_Model"
+node_name "2016robot2.asm"
+}
+DEF Default Viewpoint {
+description "Default"
+position -2.26187 0.940733 -0.698287
+orientation -0.137953 -0.975043 -0.173956 2.04804
+fieldOfView 1.53949
+}
+
+DEF FRONT Viewpoint {
+description "FRONT"
+position -0.3302 0.0805932 2.24887
+orientation 0 0 1 0
+fieldOfView 1.54191
+}
+
+DEF TOP Viewpoint {
+description "TOP"
+position -0.3302 2.06277 0.266694
+orientation -1 0 0 1.5708
+fieldOfView 1.54009
+}
+
+DEF RIGHT Viewpoint {
+description "RIGHT"
+position 1.65198 0.0805932 0.266694
+orientation 0 1 0 1.5708
+fieldOfView 1.54009
+}
+
+DEF LEFT Viewpoint {
+description "LEFT"
+position -2.31238 0.0805932 0.266694
+orientation 0 -1 0 1.5708
+fieldOfView 1.54009
+}
+
+DEF BACK Viewpoint {
+description "BACK"
+position -0.3302 0.0805932 -1.71548
+orientation 0 1 0 3.14159
+fieldOfView 1.53838
+}
+
+DEF BOTTOM Viewpoint {
+description "BOTTOM"
+position -0.3302 -1.90159 0.266694
+orientation 1 0 0 1.5708
+fieldOfView 1.54009
+}
+
+DEF ISOMETRIC Viewpoint {
+description "ISOMETRIC"
+position 0.814217 1.22499 1.41111
+orientation -0.59028 0.769277 0.244502 0.987857
+fieldOfView 1.54113
+}
+
+DEF TRIMETRIC Viewpoint {
+description "TRIMETRIC"
+position 0.77322 1.07168 1.5817
+orientation -0.579517 0.787191 0.210927 0.86618
+fieldOfView 1.54129
+}
+
+Model_Info {
+proe_id 0
+proe_type_s "Proe_Assembly"
+proe_name "2016ROBOT2"
+maj_rev -5
+min_rev  -5
+rev_num 4822
+rev_num_cosm 92
+inst_type_s "Inst_Type_Main"
+generic_name ""
+s_factor 39.3701
+parameter_names ["PROJECT","MODELED_BY","DESCRIPTION"]
+parameter_types ["STRING","STRING","STRING"]
+parameter_values ["","",""]
+}
+
+DEF Rep_0 Group {
+ children [
+Node_Info {
+node_type "Rep"
+node_name "Rep_0"
+}
+DEF Member_0_43 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_43"
+}
+Member_Info {
+member_name "Member_0_43"
+member_id 43
+}
+
+Inline {
+url "chassis_asm.wrl"}
+
+]
+}
+
+DEF Member_0_105 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_105"
+}
+Member_Info {
+member_name "Member_0_105"
+member_id 105
+}
+
+Transform {
+rotation 8.20318e-18 -1 8.20318e-18 -1.5708
+translation -0.028575 -0.0627126 0.630931
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_49 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_49"
+}
+Member_Info {
+member_name "Member_0_49"
+member_id 49
+}
+
+Transform {
+rotation -2.46716e-17 -1 -2.46716e-17 -1.5708
+translation -0.193675 0.0470408 0.260361
+children [
+Inline {
+url "wcp-ss-gearbox_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_211 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_211"
+}
+Member_Info {
+member_name "Member_0_211"
+member_id 211
+}
+
+Transform {
+rotation 0 -1 0 -1.5708
+translation -0.155575 -0.0627126 0.630956
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_213 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_213"
+}
+Member_Info {
+member_name "Member_0_213"
+member_id 213
+}
+
+Transform {
+rotation -1.02065e-17 -1 -1.01317e-17 -1.5708
+translation -0.155575 -0.0627126 0.131252
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_215 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_215"
+}
+Member_Info {
+member_name "Member_0_215"
+member_id 215
+}
+
+Transform {
+rotation 0 -1 0 -1.5708
+translation -0.635 -0.0627126 0.13335
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_217 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_217"
+}
+Member_Info {
+member_name "Member_0_217"
+member_id 217
+}
+
+Transform {
+rotation 0 -1 0 -1.5708
+translation -0.635 -0.0627126 0.630931
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_594 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_594"
+}
+Member_Info {
+member_name "Member_0_594"
+member_id 594
+}
+
+Transform {
+rotation 0 -1 0 -1.5708
+translation -0.508 -0.0627126 0.630956
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_596 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_596"
+}
+Member_Info {
+member_name "Member_0_596"
+member_id 596
+}
+
+Transform {
+rotation 0 -1 0 -1.5708
+translation -0.508 -0.0627126 0.131252
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_716 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_716"
+}
+Member_Info {
+member_name "Member_0_716"
+member_id 716
+}
+
+Transform {
+rotation 1.20464e-17 -1 1.20548e-17 -1.5708
+translation -0.635 -0.0690626 0.381013
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_718 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_718"
+}
+Member_Info {
+member_name "Member_0_718"
+member_id 718
+}
+
+Transform {
+rotation -2.64305e-18 -1 -2.64305e-18 -1.5708
+translation -0.508 -0.0690626 0.381013
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_720 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_720"
+}
+Member_Info {
+member_name "Member_0_720"
+member_id 720
+}
+
+Transform {
+rotation 5.31944e-18 -1 5.32776e-18 -1.5708
+translation -0.028575 -0.0690626 0.381013
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_722 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_722"
+}
+Member_Info {
+member_name "Member_0_722"
+member_id 722
+}
+
+Transform {
+rotation 0 -1 0 -1.5708
+translation -0.028575 -0.0627126 0.13335
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_724 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_724"
+}
+Member_Info {
+member_name "Member_0_724"
+member_id 724
+}
+
+Transform {
+rotation 7.98959e-18 1 -7.98959e-18 -1.5708
+translation -0.1524 -0.0690626 0.380987
+children [
+Inline {
+url "drive-frame-brandon-version_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_725 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_725"
+}
+Member_Info {
+member_name "Member_0_725"
+member_id 725
+}
+
+Transform {
+translation -0.543306 -0.12065 0.13335
+children [
+Inline {
+url "pneumaticwheel_am-0970_af0_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_731 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_731"
+}
+Member_Info {
+member_name "Member_0_731"
+member_id 731
+}
+
+Transform {
+translation -0.596265 -0.127 0.381013
+children [
+Inline {
+url "pneumaticwheel_am-0970_af1_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_737 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_737"
+}
+Member_Info {
+member_name "Member_0_737"
+member_id 737
+}
+
+Transform {
+translation -0.596265 -0.12065 0.630931
+children [
+Inline {
+url "pneumaticwheel_am-0970_af2_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_743 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_743"
+}
+Member_Info {
+member_name "Member_0_743"
+member_id 743
+}
+
+Transform {
+rotation -5.55112e-17 0 1 3.14159
+translation -0.117094 -0.12065 0.13335
+children [
+Inline {
+url "pneumaticwheel_am-0970_af3_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_749 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_749"
+}
+Member_Info {
+member_name "Member_0_749"
+member_id 749
+}
+
+Transform {
+rotation -5.55112e-17 0 1 3.14159
+translation -0.064135 -0.127 0.381013
+children [
+Inline {
+url "pneumaticwheel_am-0970_af4_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_755 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_755"
+}
+Member_Info {
+member_name "Member_0_755"
+member_id 755
+}
+
+Transform {
+rotation -5.55112e-17 0 1 3.14159
+translation -0.064135 -0.12065 0.630931
+children [
+Inline {
+url "pneumaticwheel_am-0970_af5_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_609 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_609"
+}
+Member_Info {
+member_name "Member_0_609"
+member_id 609
+}
+
+Transform {
+rotation 7.40149e-17 1 -7.40149e-17 -1.5708
+translation -0.466725 0.0470408 0.260361
+children [
+Inline {
+url "wcp-ss-gearbox_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_765 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_765"
+}
+Member_Info {
+member_name "Member_0_765"
+member_id 765
+}
+
+Transform {
+rotation 1 0 0 -1.5708
+translation -0.5334 0.0127 0.6096
+children [
+Inline {
+url "robotframebarlift_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_768 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_768"
+}
+Member_Info {
+member_name "Member_0_768"
+member_id 768
+}
+
+Transform {
+rotation 1 0 0 -1.5708
+translation -0.5334 0.0127 0.4953
+children [
+Inline {
+url "robotbarlift2_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_769 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_769"
+}
+Member_Info {
+member_name "Member_0_769"
+member_id 769
+}
+
+Transform {
+rotation 1 1.13294e-15 1.11022e-16 -0.195365
+translation -0.508 0.0231762 0.472607
+children [
+Inline {
+url "swingarm1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_770 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_770"
+}
+Member_Info {
+member_name "Member_0_770"
+member_id 770
+}
+
+Transform {
+rotation 1 4.93391e-16 -4.93391e-16 -0.226963
+translation -0.53975 0.035568 0.587383
+children [
+Inline {
+url "swingarm2_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_771 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_771"
+}
+Member_Info {
+member_name "Member_0_771"
+member_id 771
+}
+
+Transform {
+rotation 1 0 0 -1.5708
+translation -0.1524 0.0127 0.6096
+children [
+Inline {
+url "robotframebarlift_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_772 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_772"
+}
+Member_Info {
+member_name "Member_0_772"
+member_id 772
+}
+
+Transform {
+rotation 1 0 0 -1.5708
+translation -0.1524 0.0127 0.4953
+children [
+Inline {
+url "robotbarlift2_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_773 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_773"
+}
+Member_Info {
+member_name "Member_0_773"
+member_id 773
+}
+
+Transform {
+rotation 1 1.13294e-15 1.11022e-16 -0.195365
+translation -0.15875 0.0231762 0.472607
+children [
+Inline {
+url "swingarm1_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_774 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_774"
+}
+Member_Info {
+member_name "Member_0_774"
+member_id 774
+}
+
+Transform {
+rotation 1 9.74128e-16 1.11022e-16 -0.226963
+translation -0.127 0.035568 0.587383
+children [
+Inline {
+url "swingarm2_prt.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_779 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_779"
+}
+Member_Info {
+member_name "Member_0_779"
+member_id 779
+}
+
+Transform {
+rotation -0.580271 0.580271 -0.571464 -2.10325
+translation -0.508 0.343765 0.412159
+children [
+Inline {
+url "ballpickup_af0_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_780 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_780"
+}
+Member_Info {
+member_name "Member_0_780"
+member_id 780
+}
+
+Transform {
+rotation -0.580271 0.580271 -0.571464 -2.10325
+translation -0.127 0.343765 0.412159
+children [
+Inline {
+url "ballpickup_af1_asm.wrl"}
+
+]
+}
+
+]
+}
+
+DEF Member_0_793 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_793"
+}
+Member_Info {
+member_name "Member_0_793"
+member_id 793
+}
+
+Transform {
+translation -0.5334 0.0127 0.08255
+children [
+Inline {
+url "gatelift_asm.wrl"}
+
+]
+}
+
+]
+}
+
+]
+}
+
+]
+}
+

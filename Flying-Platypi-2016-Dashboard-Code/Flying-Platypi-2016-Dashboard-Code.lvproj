@@ -1,6 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
-	<Property Name="GIT_FILE" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="GIT_FILE" Type="Bool">false</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -13,54 +12,30 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Team VIs" Type="Folder">
+			<Property Name="GIT_FILE" Type="Bool">false</Property>
+			<Item Name="3D Display.vi" Type="VI" URL="../Team VIs/3D Display.vi"/>
+		</Item>
 		<Item Name="Support" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
-			<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Parse Digital Module.vi" Type="VI" URL="../Parse Digital Module.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Save DB Images.vi" Type="VI" URL="../Save DB Images.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Receive DS Packet.vi" Type="VI" URL="../Receive DS Packet.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Panel Resized.vi" Type="VI" URL="../Panel Resized.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
+			<Item Name="App EXE.ico" Type="Document" URL="../App EXE.ico"/>
+			<Item Name="Parse Digital Module.vi" Type="VI" URL="../Parse Digital Module.vi"/>
+			<Item Name="Save DB Images.vi" Type="VI" URL="../Save DB Images.vi"/>
+			<Item Name="Receive DS Packet.vi" Type="VI" URL="../Receive DS Packet.vi"/>
+			<Item Name="Decode Status Byte.vi" Type="VI" URL="../Decode Status Byte.vi"/>
+			<Item Name="Panel Resized.vi" Type="VI" URL="../Panel Resized.vi"/>
+			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
 		<Item Name="Autonomous VIs" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
-			<Item Name="Datalogging.vi" Type="VI" URL="../Autonomous VIs/Datalogging.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../IMUtoNormalGyro.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Array Parser.vi" Type="VI" URL="../Autonomous VIs/Array Parser.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="CSV Parsing.vi" Type="VI" URL="../Autonomous VIs/CSV Parsing.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Array To Autonomous Commands.vi" Type="VI" URL="../Autonomous VIs/Array To Autonomous Commands.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
-			<Item Name="Log Path.vi" Type="VI" URL="../Autonomous VIs/Log Path.vi">
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-			</Item>
+			<Item Name="Datalogging.vi" Type="VI" URL="../Autonomous VIs/Datalogging.vi"/>
+			<Item Name="IMUtoNormalGyro.vi" Type="VI" URL="../IMUtoNormalGyro.vi"/>
+			<Item Name="Array Parser.vi" Type="VI" URL="../Autonomous VIs/Array Parser.vi"/>
+			<Item Name="CSV Parsing.vi" Type="VI" URL="../Autonomous VIs/CSV Parsing.vi"/>
+			<Item Name="Array To Autonomous Commands.vi" Type="VI" URL="../Autonomous VIs/Array To Autonomous Commands.vi"/>
+			<Item Name="Log Path.vi" Type="VI" URL="../Autonomous VIs/Log Path.vi"/>
 		</Item>
-		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi">
-			<Property Name="GIT_FILE" Type="Bool">false</Property>
-		</Item>
+		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -272,6 +247,8 @@
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="Interpolate RGB Color.vi" Type="VI" URL="../Interpolate RGB Color.vi"/>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
@@ -311,8 +288,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/FRC_Dashboard/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1655C9C8-DDEE-4E02-9009-B5F2511AA212}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AB35ADAC-71DC-464E-ACD3-2B6DDCC1A081}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>

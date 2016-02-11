@@ -1,0 +1,167 @@
+#VRML V2.0 utf8
+
+PROTO Header_Info [
+field SFString vendor "Parametric Technology Corporation"
+field SFString product "Pro/ENGINEER"
+field SFString version ""
+field SFString sceneFile ""]
+{WorldInfo {}}
+
+PROTO Node_Info [
+field SFString node_type ""
+field SFString node_name ""]
+{WorldInfo {}}
+
+PROTO Geom_Type [
+field SFString geom_type_s "T_Empty"
+field SFInt32 trg_qual 1]
+{WorldInfo {}}
+
+PROTO Member_Info [
+field SFString member_name ""
+field SFInt32 member_id 0
+field SFString proe_name ""
+field SFString proe_type_s  ""
+field SFString expl_status_s "Vrml_Exp_Unknown"
+field MFFloat drag_trf [] ]
+{WorldInfo {}}
+
+PROTO Model_Info [
+field SFInt32 proe_id 524298
+field SFString proe_type_s "Proe_Assembly"
+field SFString proe_name "PNEUMATICWHEEL_AM-0970#AF0"
+field SFInt32 maj_rev -5
+field SFInt32 min_rev  -5
+field SFInt32 rev_num 84
+field SFInt32 rev_num_cosm 80
+field SFString inst_type_s "Inst_Type_No_Visible"
+field SFString generic_name "PNEUMATICWHEEL_AM-0970"
+field SFFloat s_factor 39.3701
+field MFString parameter_names []
+field MFString parameter_types []
+field MFString parameter_values []
+]
+{WorldInfo {}}
+
+Header_Info{
+vendor "Parametric Technology Corporation"
+product "Creo Parametric"
+version "2"
+}
+
+DEF V_Model Anchor {
+  url ""
+  description "pneumaticwheel_am-0970#af0.asm"
+children [
+Node_Info {
+node_type "V_Model"
+node_name "pneumaticwheel_am-0970#af0.asm"
+}
+DEF Default Viewpoint {
+description "Default"
+position -0.396383 0.237479 0.0303895
+orientation -0.63892 -0.543525 0.544391 2.07279
+fieldOfView 1.53694
+}
+
+DEF FRONT Viewpoint {
+description "FRONT"
+position -0.00160161 8.69006e-10 0.452363
+orientation 0 0 1 0
+fieldOfView 1.54015
+}
+
+DEF TOP Viewpoint {
+description "TOP"
+position -0.00160161 0.452363 5.04941e-17
+orientation -1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF RIGHT Viewpoint {
+description "RIGHT"
+position 0.450762 8.69006e-10 5.04941e-17
+orientation 0 1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF LEFT Viewpoint {
+description "LEFT"
+position -0.453965 8.69006e-10 -1.88062e-17
+orientation 0 -1 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF BACK Viewpoint {
+description "BACK"
+position -0.00160161 8.69006e-10 -0.452363
+orientation 0 1 0 3.14159
+fieldOfView 1.54015
+}
+
+DEF BOTTOM Viewpoint {
+description "BOTTOM"
+position -0.00160161 -0.452363 -5.62286e-17
+orientation 1 0 0 1.5708
+fieldOfView 1.54015
+}
+
+DEF ISOMETRIC Viewpoint {
+description "ISOMETRIC"
+position 0.259572 0.26117 0.261173
+orientation -0.59028 0.769277 0.244502 0.987857
+fieldOfView 1.54015
+}
+
+DEF TRIMETRIC Viewpoint {
+description "TRIMETRIC"
+position 0.250216 0.226182 0.300104
+orientation -0.579517 0.787191 0.210927 0.86618
+fieldOfView 1.54015
+}
+
+Model_Info {
+proe_id 524298
+proe_type_s "Proe_Assembly"
+proe_name "PNEUMATICWHEEL_AM-0970#AF0"
+maj_rev -5
+min_rev  -5
+rev_num 84
+rev_num_cosm 80
+inst_type_s "Inst_Type_No_Visible"
+generic_name "PNEUMATICWHEEL_AM-0970"
+s_factor 39.3701
+parameter_names ["PROJECT","MODELED_BY","DESCRIPTION"]
+parameter_types ["STRING","STRING","STRING"]
+parameter_values ["","",""]
+}
+
+DEF Rep_0 Group {
+ children [
+Node_Info {
+node_type "Rep"
+node_name "Rep_0"
+}
+DEF Member_0_48 Group {
+children [
+Node_Info {
+node_type "Member"
+node_name "Member_0_48"
+}
+Member_Info {
+member_name "Member_0_48"
+member_id 48
+}
+
+Inline {
+url "pneumatic_wheel_af0_asm.wrl"}
+
+]
+}
+
+]
+}
+
+]
+}
+
