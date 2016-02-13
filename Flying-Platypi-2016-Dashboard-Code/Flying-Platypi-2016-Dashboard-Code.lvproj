@@ -34,6 +34,7 @@
 			<Item Name="CSV Parsing.vi" Type="VI" URL="../Autonomous VIs/CSV Parsing.vi"/>
 			<Item Name="Array To Autonomous Commands.vi" Type="VI" URL="../Autonomous VIs/Array To Autonomous Commands.vi"/>
 			<Item Name="Log Path.vi" Type="VI" URL="../Autonomous VIs/Log Path.vi"/>
+			<Item Name="Encoder Crossover.vi" Type="VI" URL="../Team VIs/Encoder Crossover.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -289,7 +290,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AB35ADAC-71DC-464E-ACD3-2B6DDCC1A081}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7FF66A04-C78A-42BF-9F3A-AB639C1525C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
