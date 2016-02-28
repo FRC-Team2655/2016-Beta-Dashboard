@@ -15,6 +15,8 @@
 		<Item Name="Team VIs" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
 			<Item Name="3D Display.vi" Type="VI" URL="../Team VIs/3D Display.vi"/>
+			<Item Name="Encoder Crossover.vi" Type="VI" URL="../Team VIs/Encoder Crossover.vi"/>
+			<Item Name="Gyro Crossover.vi" Type="VI" URL="../Team VIs/Gyro Crossover.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Property Name="GIT_FILE" Type="Bool">false</Property>
@@ -34,7 +36,6 @@
 			<Item Name="CSV Parsing.vi" Type="VI" URL="../Autonomous VIs/CSV Parsing.vi"/>
 			<Item Name="Array To Autonomous Commands.vi" Type="VI" URL="../Autonomous VIs/Array To Autonomous Commands.vi"/>
 			<Item Name="Log Path.vi" Type="VI" URL="../Autonomous VIs/Log Path.vi"/>
-			<Item Name="Encoder Crossover.vi" Type="VI" URL="../Team VIs/Encoder Crossover.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -290,7 +291,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
 				<Property Name="GIT_FILE" Type="Bool">false</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D1895E9B-5173-4134-9372-DC2AD4F486D0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C9B891EC-C379-447F-95B1-30F53627A425}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
